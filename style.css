@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  font-family: "League Spartan", sans-serif;
+  width: 100%;
+  max-width: 327px;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* header */
+.top__header {
+  margin-top: 82px;
+}
+header {
+  text-align: center;
+}
+
+header h1 {
+  font: 700 40px/32px "League Spartan", sans-serif;
+  letter-spacing: -1.43px;
+  margin-bottom: 17px;
+}
+
+header p {
+  font: 500 19px/25px "League Spartan", sans-serif;
+  letter-spacing: -0.63px;
+  color: #927b91;
+}
+
+/* rates */
+
+.rates {
+  margin-top: 39px;
+  margin-bottom: 49px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.stars {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background-color: #f7f2f7;
+  border-radius: 8px;
+  height: 78px;
+  width: 100%;
+}
+
+.stars p {
+  font: 700 16px/17px "League Spartan", sans-serif;
+  letter-spacing: 0px;
+  color: #512051;
+}
+/* cards */
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card {
+  padding: 38px 32px;
+  border-radius: 8px;
+  background-color: #512051;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+
+.author {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.author h3 {
+  font: 700 16px/17px "League Spartan", sans-serif;
+  letter-spacing: 0px;
+}
+
+.author p {
+  font: 400 16px/17px "League Spartan", sans-serif;
+  letter-spacing: 0px;
+  color: #ee69a4;
+}
+
+.card__img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.card blockquote {
+  font: 500 17px/22px "League Spartan", sans-serif;
+  letter-spacing: -0.3px;
+}
+
+@media (min-width: 1110px) {
+  main {
+    width: 100%;
+    max-width: 1110px;
+  }
+
+  .top__header {
+    display: flex;
+    height: 245px;
+    gap: 125px;
+    align-items: center;
+    margin-top: 118px;
+    margin-bottom: 71px;
+  }
+
+  header {
+    max-width: 445px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: start;
+    gap: 16px;
+    text-align: start;
+  }
+
+  header h1 {
+    font: 700 56px/48px "League Spartan", sans-serif;
+    letter-spacing: -2px;
+    margin-bottom: 16px;
+  }
+
+  header p {
+    font: 500 19px/25px "League Spartan", sans-serif;
+    letter-spacing: -0.63px;
+    color: #927b91;
+  }
+
+  /* rates */
+
+  .rates {
+    width: 540px;
+    height: 200px;
+  }
+
+  .stars {
+    width: 445px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .star-1 {
+    display: flex;
+
+    align-self: start;
+  }
+
+  .star-2 {
+    display: flex;
+    align-self: center;
+  }
+
+  .star-3 {
+    display: flex;
+    align-self: end;
+  }
+
+  /* cards */
+  .cards {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    height: 266px;
+  }
+
+  .card {
+    padding: 41.5px 32px;
+    border-radius: 8px;
+    background-color: #512051;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+  }
+
+  .card-1 {
+    display: flex;
+
+    align-self: start;
+  }
+
+  .card-2 {
+    display: flex;
+    align-self: center;
+  }
+
+  .card-3 {
+    display: flex;
+    align-self: end;
+  }
+
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+  }
+
+  .author {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .author h3 {
+    font: 700 16px/17px "League Spartan", sans-serif;
+    letter-spacing: 0px;
+  }
+
+  .author p {
+    font: 400 16px/17px "League Spartan", sans-serif;
+    letter-spacing: 0px;
+    color: #ee69a4;
+  }
+
+  .card__img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .card blockquote {
+    font: 500 17px/22px "League Spartan", sans-serif;
+    letter-spacing: -0.3px;
+  }
+}
