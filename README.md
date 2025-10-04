@@ -46,7 +46,7 @@ Users should be able to:
 
 ### solution
 
-![./design/screenshotm.png](./design/screenshotm.png)
+![./design/screenshotm.jpeg](./design/screenshotm.jpeg)
 
 ### Links
 
