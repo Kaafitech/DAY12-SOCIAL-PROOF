@@ -36,7 +36,7 @@ Users should be able to:
 
 ### solution
 
-![./design/screenshot.png](./design/screenshot.png)
+![./images/screenshot.png](./images/screenshot.png)
 
 ## Mobile
 
@@ -46,7 +46,7 @@ Users should be able to:
 
 ### solution
 
-![./design/screenshotm.jpeg](./design/screenshotm.jpeg)
+![./images/screenshotm.jpeg](./images/screenshotm.jpeg)
 
 ### Links
 
